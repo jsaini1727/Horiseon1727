@@ -1,13 +1,16 @@
+/* Reset default styling for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set backgroung color for the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +23,12 @@ body {
     font-size: 48px;
 }
 
+/* SEO text color within the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation Styling */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,6 +47,7 @@ body {
     
 }
 
+/* Link styling */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,8 +57,9 @@ p {
     font-size: 16px;
 }
 
+/* Hero section styling */
 .hero {
-    height: 1000px;
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -76,6 +83,7 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits section styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,6 +111,7 @@ p {
     max-width: 150px;
 }
 
+/* Online tools section styling */
 .online-tools {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,6 +130,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer section styling */
 .footer {
     padding: 30px;
     clear: both;
